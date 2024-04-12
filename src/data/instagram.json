@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "image":"assets/images/flights/Amsterdam.jpg"
+    },
+    {
+        "id":2,
+        "image":"assets/images/flights/nairobi.jpg"
+    },
+    {
+        "id":3,
+        "image":"assets/images/flights/chicago.jpg"
+    },
+    {
+        "id":4,
+        "image":"assets/images/flights/dubai.jpg"
+    },
+    {
+        "id":5,
+        "image":"assets/images/flights/Madrid.jpg"
+    },
+    {
+        "id":6,
+        "image":"assets/images/flights/new-york.jpg"
+    },
+    {
+        "id":7,
+        "image":"assets/images/flights/Punta Cana.jpg"
+    },
+    {
+        "id":8,
+        "image":"assets/images/flights/Robben-island.jpg"
+    },
+    {
+        "id":9,
+        "image":"assets/images/flights/Stockholm.jpg"
+    }
+]

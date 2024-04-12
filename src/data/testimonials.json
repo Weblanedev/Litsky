@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "rating":5,
+        "text": "I had a very good experience with Parceltube. The customer service is really good. The customer service representative Herman really did a great job by explaining everything and helped me a lot in chosing the best deal. They really care about their customers.",
+        "author": [
+            1
+        ]
+    },
+    {
+        "id": 2,
+        "rating":3,
+        "text": "I was not getting cheap flights to America that would cater to my savings. After searching for an hour I asked help from my cousin who referred me this website. I got the best deal from this website and saved a good amount. Thank you.",
+        "author": [
+            2
+        ]
+    },
+    {
+        "id": 3,
+        "rating":4,
+        "text": "We booked a trip to Australia through these guys and saved several thousand dollars. We read the reviews and knew going into it that if we needed to change our flight schedule it could be difficult. Thankfully we didn't have to do it and all of our flights came through just fine. Thanks.",
+        "author": [
+            3
+        ]
+    },
+    {
+        "id": 4,
+        "rating":4,
+        "text": "I was waiting to visit Morocco for a long while! However, this website provided me the best ticket deal and I could save a huge amount of money. Thank you so much.",
+        "author": [
+            5
+        ]
+    }
+]

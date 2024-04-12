@@ -1,0 +1,1233 @@
+[
+    {
+        "id": 1,
+        "title": "Robben Island Tour (Big Groups)",
+        "image": "assets/images/flights/Robben-Island.jpg",
+        "price": "119,750",
+        "flightroute": [
+            1
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Africa Tours and Sightseeing",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Learn about Nelson Mandela’s remarkable legacy on this guided tour of Robben Island, where the famous leader spent long years of his imprisonment. Cover centuries of history in the UNESCO-listed historical property, which include decades as a military base, hospital, and maximum security prison. Tours include door-to-door pickup and drop-off from your Cape Town hotel; admission is at your expense.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+
+            "journeydetails": [
+                {
+                    "takeofftime": "Takeoff, 0:00 AM/PM",
+                    "landingtime": "Landing, 0:00 AM/PM"
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "title": "New York: CityPASS® with Tickets",
+        "image": "assets/images/flights/new-york.jpg",
+        "price": "194,625",
+        "flightroute": [
+            2
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Keep your travel plans flexible — book your spot",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'> Experience world-class art, fascinating science, important history, incredible views—from the sky and the sea, and more with your New York CityPASS® tickets. Save 40% on prepaid admission to 5 must-see attractions:  Empire State Building – General admission entry to the 86th floor observatory and admission to the 2nd floor museum, plus bonus same-night general admission</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                },
+                {
+                    "takeofftime": "16 NOV 2022, 7:50 AM",
+                    "landingtime": "16 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "title": "Chicago City Cruise",
+        "image": "assets/images/flights/chicago.jpg",
+        "price": "148,571",
+        "flightroute": [
+            3
+        ],
+        "flighttype": [
+            3
+        ],
+        "flightstops": [
+            3
+        ],
+        "airlines": "See New York’s top attractions, handpicked and packaged together at significant savings. ",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'> Experience world-class art, fascinating science, important history, incredible views—from the sky and the sea, and more with your New York CityPASS® tickets.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "title": "Nairobi: Karen Blixen, Elephant Orphanage and Giraffe Center",
+        "image": "assets/images/flights/nairobi.jpg",
+        "price": "227,227",
+        "flightroute": [
+            4
+        ],
+        "flighttype": [
+            4
+        ],
+        "flightstops": [
+            4
+        ],
+        "airlines":"Visit the Karen Blixen Museum in Nairobi and see the forest",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Visit the Karen Blixen Museum in Nairobi and see the forest, plows, and farm equipment. Go to the David Sheldrick Wildlife Trust to see the elephant orphanage, then head to the Giraffe Center.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                },
+                {
+                    "takeofftime": "16 NOV 2022, 7:50 AM",
+                    "landingtime": "16 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "title": "From Dubai: Abu Dhabi Premium Full-Day Sightseeing Tour",
+        "image": "assets/images/flights/dubai.jpg",
+        "price": "250,267",
+        "flightroute": [
+            5
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines":"Discover the best attractions of Abu Dhabi",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the best attractions of Abu Dhabi on a premium full-day sightseeing tour from Dubai. Explore the Grand Mosque, Etihad Towers, Qasr Al Watan, and take a ride along the Corniche on this tour.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "title": "Stockholm: City Archipelago Sightseeing Cruise with Guide",
+        "image": "assets/images/flights/Stockholm.jpg",
+        "price": "309,060",
+        "flightroute": [
+            6
+        ],
+        "flighttype": [
+            2
+        ],
+        "flightstops": [
+            2
+        ],
+        "airlines": "Climb aboard a classic archipelago ship",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Climb aboard a classic archipelago ship and sail on the waterways of Stockholm on a sightseeing cruise. Experience the untouched nature of the city's archipelago and hear about the sights from a guide.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                },
+                {
+                    "takeofftime": "16 NOV 2022, 7:50 AM",
+                    "landingtime": "16 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "title": "From Madrid: Toledo and Segovia Tour",
+        "image": "assets/images/flights/Madrid.jpg",
+        "price": "317,800",
+        "flightroute": [
+            1
+        ],
+        "flighttype": [
+            3
+        ],
+        "flightstops": [
+            3
+        ],
+        "airlines": "Depart from Madrid and embark on a morning tour of Toledo ",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            1,
+            2
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Depart from Madrid and embark on a morning tour of Toledo with an optional cathedral visit. Combine your experience with an afternoon tour of Segovia, with tickets to the Alcazar Fortress.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "title": "Amsterdam: Classic Boat Cruise with Cheese & Wine Option",
+        "image": "assets/images/flights/Amsterdam.jpg",
+        "price": "385,332",
+        "flightroute": [
+            2
+        ],
+        "flighttype": [
+            4
+        ],
+        "flightstops": [
+            4
+        ],
+        "airlines": "Discover the beautiful city of Amsterdam on a classic boat",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            3,
+            4
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the beautiful city of Amsterdam on a classic boat with this covered canal cruise. Sail past city sights like the Maritime Museum, the Golden Bend, and the Anne Frank House.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                },
+                {
+                    "takeofftime": "16 NOV 2022, 7:50 AM",
+                    "landingtime": "16 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "title": "Punta Cana: Santo Domingo Day Trip with Tickets and Lunch",
+        "image": "assets/images/flights/Punta Cana.jpg",
+        "price": "197,830",
+        "flightroute": [
+            5
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Discover the history, culture, and landscapes of Santo Domingo ",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 10,
+        "title": "New Orleans: Evening Jazz Cruise",
+        "image": "assets/images/flights/New Orleans.jpg",
+        "price":"146,188",
+        "flightroute": [
+            1
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Experience New Orleans from the best seat in the city",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Visit one of the most famous coffee plantations in Costa Rica on this day tour from San Jose. Sample fresh coffee and visit the estate butterfly garden and botanical gardens.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 11,
+        "title": "From Riviera Maya: Tulum Ruins and Cenote Mariposa Tour",
+        "image": "assets/images/flights/Cenotes.jpg",
+        "price": "205,480",
+        "flightroute": [
+            3
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Explore Tulum's Mayan pyramid, temples, and relaxing beaches",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Explore Tulum's Mayan pyramid, temples, and relaxing beaches on a van trip from the Riviera Maya. Take a refreshing dip in the turquoise waters of the Mariposa cenote and visit the cenote of Chen-Ha.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 12,
+        "title": "Santo Domingo Day Trip with Tickets and Lunch",
+        "image": "assets/images/flights/Santo Domingo.jpg",
+        "price": "473,700",
+        "flightroute": [
+            4
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Discover the history, culture, and landscapes of Santo Domingo",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 13,
+        "title": "Lekki Conservation Center Extraordinary Tour",
+        "image": "assets/images/flights/lekki.jpg",
+        "price": "117,635",
+        "flightroute": [
+            6
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Enoy the longest canopy walk in Africa.",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 14,
+        "title": "Lagos Beach Adventures; With a wide array of beaches",
+        "image": "assets/images/flights/beach.jpg",
+        "price": "248,692",
+        "flightroute": [
+            8
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Experience the calm ambience of the beach.",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    },
+     {
+        "id": 15,
+        "title": "São Paulo: Full-Day Private Wine Tour",
+        "image": "assets/images/flights/brasil.jpg",
+        "price": "157,900",
+        "flightroute": [
+            9
+        ],
+        "flighttype": [
+            1
+        ],
+        "flightstops": [
+            1
+        ],
+        "airlines": "Escape from São Paulo to the famous countryside town of São Roque.",
+        "accomondation": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "category": [
+            5,
+            6
+        ],
+        "overview": {
+            "text": "<p class='text-light-dark'>Discover the history, culture, and landscapes of Santo Domingo on this day tour from Punta Cana. Visit the Three Eyes National Park cenotes, America's first cathedral, and the National Pantheon.</p>",
+            "testimonials": [
+                1,
+                2,
+                3
+            ],
+            "flightinfo": [
+                {
+                    "title": "Fare Type",
+                    "text": "Refundable"
+                },
+                {
+                    "title": "Cancellation",
+                    "text": "$78/Person"
+                },
+                {
+                    "title": "Flight Change",
+                    "text": "$53/Person"
+                },
+                {
+                    "title": "Seats & Baggage",
+                    "text": "Extra Charge"
+                }
+            ]
+        },
+        "includes": {
+            "title": "Amenities",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "amenities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        },
+        "travelinfo": {
+            "title": "Travel Info",
+            "text": "Maecenas vitae turpis condimentum metus tincidunt semper bibendum ut orci. Donec eget accumsan est. Duis laoreet sagittis elit et vehicula. Cras viverra posuere condimentum.",
+            "journeydetails": [
+                {
+                    "takeofftime": "13 NOV 2022, 7:50 AM",
+                    "landingtime": "13 NOV 2022, 9:20 AM"
+                }
+            ]
+        }
+    }
+]

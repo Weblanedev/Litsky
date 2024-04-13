@@ -1,14 +1,16 @@
 button:focus,
-button:hover{
-	outline: none!important;
-	box-shadow: none!important;
-  text-decoration: none!important;
+button:hover {
+  outline: none !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
 }
+
 .main-banner .slide-item {
   height: auto;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: calc(100vh - 94px);
 }
 
 .main-banner .slide-item .section-padding {
@@ -145,56 +147,70 @@ button:hover{
   font-size: 16px;
   color: #81a8b5;
 }
-.pagination_layout{
-	margin-top: -30px;
+
+.pagination_layout {
+  margin-top: -30px;
 }
-.blog-details .post .post-wrapper .blog-meta .post-meta-box .post-categories a::after{
+
+.blog-details .post .post-wrapper .blog-meta .post-meta-box .post-categories a::after {
   content: ', ';
 }
-.blog-details .post .post-wrapper .blog-meta .post-meta-box .post-categories a:last-child::after{
+
+.blog-details .post .post-wrapper .blog-meta .post-meta-box .post-categories a:last-child::after {
   display: none;
 }
-.comment-box .comments li article .comment-avatar{
+
+.comment-box .comments li article .comment-avatar {
   width: 80px;
 }
-.sidebar_wrap .sidebar .sidebar_widgets .popular_post li:last-child{
+
+.sidebar_wrap .sidebar .sidebar_widgets .popular_post li:last-child {
   margin-bottom: 0;
 }
-.sidebar_wrap .sidebar .sidebar_widgets .tags{
+
+.sidebar_wrap .sidebar .sidebar_widgets .tags {
   margin-bottom: -10px;
 }
-.listing-details-inner .listing-meta-sec .listing-testimonial .tesimonial-item .testimonial-author .author-img{
+
+.listing-details-inner .listing-meta-sec .listing-testimonial .tesimonial-item .testimonial-author .author-img {
   width: 86px;
   height: 86px;
 }
-.htmltext p:last-child{
+
+.htmltext p:last-child {
   margin-bottom: 0;
 }
-.hotel-grid .hotel-grid-wrapper.car-grid .image-sec img{
+
+.hotel-grid .hotel-grid-wrapper.car-grid .image-sec img {
   object-fit: cover;
 }
+
 @media (max-width: 992px) {
   .section-header.style-right .section-heading h3::before {
     transform: none;
     right: auto;
   }
 }
-.card .card-header{
+
+.card .card-header {
   display: flex;
   flex-basis: 100%;
   order: 1;
   border-radius: 0;
 }
-.card .collapseparent{
+
+.card .collapseparent {
   order: 2;
 }
-.accordion .card .collapseparent + .card-header .btn-link{
-background: #ededed;
+
+.accordion .card .collapseparent+.card-header .btn-link {
+  background: #ededed;
   border-color: #ededed;
   color: #000;
 }
-.accordion .card .collapseparent + .card-header .btn-link::before{
-content: '\f067';
+
+.accordion .card .collapseparent+.card-header .btn-link::before {
+  content: '\f067';
   background: #2d3e52;
   color: #ededed;
   font-family: "Font Awesome 5 Pro";
@@ -204,54 +220,62 @@ content: '\f067';
   justify-content: center;
   align-items: center;
 }
-.accordion .card .collapseparent.show + .card-header .btn-link{
-background: #81a8b5;
+
+.accordion .card .collapseparent.show+.card-header .btn-link {
+  background: #81a8b5;
   color: #fff;
-border-color: transparent;
+  border-color: transparent;
 }
-.accordion .card .collapseparent.show + .card-header .btn-link::before{
-background: #fff;
+
+.accordion .card .collapseparent.show+.card-header .btn-link::before {
+  background: #fff;
   color: #81a8b5;
-content: '\f068';
+  content: '\f068';
 }
+
 ul li,
-ul{
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.group-form .custom-select:before{
+
+.group-form .custom-select:before {
   pointer-events: none;
 }
-.group-form .custom-select{
+
+.group-form .custom-select {
   padding-right: 0;
 }
-.custom-select select{
+
+.custom-select select {
   appearance: none;
   border: 0;
   background: transparent;
   width: 100%;
 }
 
-.currency{
+.currency {
   left: 990px;
   font-size: larger;
   font-weight: 800;
   position: absolute;
-  color:#596d73;;;
+  color: #596d73;
+  ;
+  ;
 }
 
 @media (max-width: 992px) {
-  .currency{
+  .currency {
     left: 230px;
     font-size: larger;
     font-weight: 600;
     position: absolute;
-    color:#596d73;
+    color: #596d73;
   }
 }
 
-.card-footer-sec{
+.card-footer-sec {
   display: flex;
   flex-direction: column;
   padding-top: 10px;
@@ -262,12 +286,12 @@ ul{
   text-align: left;
 }
 
-.footer-right{
- margin-left: 0; 
+.footer-right {
+  margin-left: 0;
 }
 
 
-.maintenance{
+.maintenance {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -284,7 +308,7 @@ ul{
   align-items: center;
   margin: 0 auto;
   margin-top: 20px;
-  color:#596d73;
+  color: #596d73;
 }
 
 .visible-button {

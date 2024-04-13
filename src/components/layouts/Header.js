@@ -13,7 +13,7 @@ function Header() {
 
     console.log(currency, currencies, rate)
 
-    const [ activeCurrency, setActiveCurrency ] = useState(
+    const [activeCurrency, setActiveCurrency] = useState(
         localStorage.getItem('currency')
     )
     //handle currency update
@@ -37,7 +37,7 @@ function Header() {
 
         //only update local storage when activeCurrency has a value
         window.localStorage.setItem('currency', activeCurrency || 'USD');
-    }, [ activeCurrency ]);
+    }, [activeCurrency]);
 
     // render() {
     // const stickyHeader = this.state.stickyHeader ? ' sticky' : '';
@@ -54,11 +54,15 @@ function Header() {
                                 <div className="logo">
                                     <Link to="/">
                                         <b style={{ fontSize: '30px' }}>
-                                            Parceltube
+                                            Litsky
                                         </b>
                                         {/* <img src={process.env.PUBLIC_URL + "/assets/images/toor-logo.png"} className="img-fluid image-fit" alt="img" /> */}
                                     </Link>
                                 </div>
+                                <ul className='nav-links'>
+                                    <li className='nav-link'>About</li>
+                                    <li className='nav-link'>Contact</li>
+                                </ul>
                                 {/* <span className="currency">Currency :</span>
                                 <select style={{ border: 'none' }} defaultValue={activeCurrency} onChange={handleChangeCurrency} >
                                     {currencies.map((currency, idx) => (

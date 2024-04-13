@@ -1,50 +1,50 @@
 [
     {
-        "id":1,
-        "title":"Do More<span class='text-custom-blue'>With</span> Parceltube!",
-        "image":"assets/images/flight-2.jpg",
-        "accomondation":[
-             {
-                "icon":"fas fa-dollar-sign",
-                "title":"Affordable prices"
+        "id": 1,
+        "title": "Explore the world<span class='text-custom-blue'>With</span> Litsky!",
+        "image": "assets/images/flight-2.jpg",
+        "accomondation": [
+            {
+                "icon": "fas fa-dollar-sign",
+                "title": "Affordable prices"
             },
             {
-                "icon":"fas fa-comments",
-                "title":"Customer Care 24 hours"
+                "icon": "fas fa-comments",
+                "title": "Customer Care 24 hours"
             }
         ],
-        "link":"/flight-grid"
+        "link": "/flight-grid"
     },
     {
-        "id":3,
-        "title":"Discover amazing  <span class='text-custom-blue'>tour</span> experiences!",
-        "image":"assets/images/hotel-1.jpg",
-        "accomondation":[
+        "id": 3,
+        "title": "Discover Attractions With  <span class='text-custom-blue'>Expert</span> Guides!",
+        "image": "assets/images/hotel-1.jpg",
+        "accomondation": [
             {
-                "icon":"fas fa-dollar-sign",
-                "title":"Affordable prices"
+                "icon": "fas fa-dollar-sign",
+                "title": "Affordable prices"
             },
             {
-                "icon":"fas fa-comments",
-                "title":"Customer Care 24 hours"
+                "icon": "fas fa-comments",
+                "title": "Customer Care 24 hours"
             }
         ],
-        "link":"/hotel-grid"
+        "link": "/hotel-grid"
     },
     {
-        "id":3,
-        "title":"We make tours <span class='text-custom-blue'>most</span> memorable!",
-        "image":"assets/images/car-1.jpg",
-        "accomondation":[
-             {
-                "icon":"fas fa-dollar-sign",
-                "title":"Affordable prices"
+        "id": 3,
+        "title": "Book your dream <span class='text-custom-blue'>tour</span> today!",
+        "image": "assets/images/car-1.jpg",
+        "accomondation": [
+            {
+                "icon": "fas fa-dollar-sign",
+                "title": "Affordable prices"
             },
             {
-                "icon":"fas fa-comments",
-                "title":"Customer Care 24 hours"
+                "icon": "fas fa-comments",
+                "title": "Customer Care 24 hours"
             }
         ],
-        "link":"/cruise-grid"
+        "link": "/cruise-grid"
     }
 ]

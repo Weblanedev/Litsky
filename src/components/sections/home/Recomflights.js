@@ -18,7 +18,7 @@ const settings = {
     autoplaySpeed: 2000,
     speed: 500,
     cssEase: 'linear',
-    responsive: [ {
+    responsive: [{
         breakpoint: 992,
         settings: {
             arrows: true,
@@ -38,11 +38,11 @@ const settings = {
             dots: true,
             slidesToShow: 1
         }
-    } ]
+    }]
 };
 
 function Recomflights() {
-    const [ displayCount, setDisplayCount ] = useState(9);
+    const [displayCount, setDisplayCount] = useState(9);
 
     // const {
     //     state: { currency, rate }
@@ -54,7 +54,7 @@ function Recomflights() {
                 <div className="container">
                     <div className="section-header">
                         <div className="section-heading">
-                            <h3 className="text-custom-black">Top attractions </h3>
+                            <h3 className="text-custom-black">Must-See Destinations </h3>
                         </div>
                     </div>
                     <div className="row">
@@ -148,7 +148,7 @@ function Recomflights() {
                                             </div>
                                         </div>
                                     </>
-                                )    
+                                )
                             })}
                         </div>
                         {displayCount < data.length && (

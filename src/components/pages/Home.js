@@ -13,7 +13,7 @@ class Home extends Component {
         return (
             <Fragment>
                 <MetaTags>
-                    <title>Parceltube - Travel Booking | {pagelocation}</title>
+                    <title>Litsky - Travel Booking | {pagelocation}</title>
                     <meta
                         name="description"
                         content="#"

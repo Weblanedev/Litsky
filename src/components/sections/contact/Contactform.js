@@ -26,7 +26,7 @@ export default function Contactform() {
     useEffect(() => {
         const script = document.createElement("script");
         script.src = "https://checkout.flutterwave.com/v3.js";
-        document.getElementsByTagName("head")[ 0 ].appendChild(script);
+        document.getElementsByTagName("head")[0].appendChild(script);
     }, []);
 
 
@@ -41,7 +41,7 @@ export default function Contactform() {
                 // email: localStorage.getItem("email"),
             },
             customizations: {
-                title: "PARCELTUBE",
+                title: "Litsky",
             },
             callback: async function () {
                 alert('Payment successful...We will reach out to you for further details')
@@ -69,9 +69,9 @@ export default function Contactform() {
                                         <div className="col-lg-8" style={{ maxWidth: '100%' }}>
                                             <div className="need-help bx-wrapper padding-20">
                                                 <h5 className="text-custom-black">Booking Information</h5>
-                                                
+
                                                 <li className="text-light-dark form_list"> <strong>Tour: </strong> <Link>{title}</Link> </li>
-                                                
+
                                                 <li className="text-light-dark form_list"> <strong>City: </strong> <Link>{airlines}</Link> </li>
                                                 <li className="text-light-dark form_list" > <strong>Amount due: </strong> <Link>{currency}{currency !== '$' ? formatNumber(price * rate) : formatNumber(price)}</Link> </li>
                                                 <li className="text-light-dark form_list"> <strong>Customer Name: </strong> <Link>{name}</Link> </li>
@@ -87,7 +87,7 @@ export default function Contactform() {
                                                 <ul className="custom">
                                                     <li className="text-custom-blue fs-18">
                                                         <i className="fas fa-envelope" />
-                                                        <Link to="#" className="text-light-dark fs-14"> info@parceltube.ng</Link>
+                                                        <Link to="#" className="text-light-dark fs-14"> info@litsky.com</Link>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -96,13 +96,13 @@ export default function Contactform() {
 
                                 </div>
                                 <div className="row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                    <div className="col-md-8" style={{ maxWidth: '50%',  marginTop:'15px' }}>
+                                    <div className="col-md-8" style={{ maxWidth: '50%', marginTop: '15px' }}>
                                         <i className="fas fa-calendar text-gray" />
                                         {/* <i className="fas fa-plane text-gray" /> */}
                                         <Link to="/" className="text-light-dark fs-14"
                                         > Go back to booking instead</Link>
                                     </div>
-                                    <div className="col-md-8"  style={{ maxWidth: '50%', textAlign:'center' }}>
+                                    <div className="col-md-8" style={{ maxWidth: '50%', textAlign: 'center' }}>
                                         <div className="">
                                             <hr className="mt-0" />
                                             <Link type="submit" className="btn-first btn-submit rounded full-width btn-height"

@@ -1,16 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useParams, useHistory } from 'react-router-dom';
 import { CurrencyState } from '../../../Context/CurrencyContext';
 import dataBlock from '../../../data/flights/flight.json'
 import { formatNumber } from "../../../utils";
 import { useFormik } from 'formik'
+import PaymentModal from './PaymentModal';
 
 function Flightbooking() {
 
     const history = useHistory()
 
     const { id } = useParams()
-    const flightDetails = dataBlock[ id ]
+    const flightDetails = dataBlock[id]
     const { price, title, airlines, flightdate } = flightDetails
     localStorage.setItem("flightDetails", JSON.stringify(flightDetails))
 
@@ -19,7 +20,8 @@ function Flightbooking() {
     const {
         state: { currency, rate }
     } = CurrencyState()
-
+    const [paymentModalShowing, setPaymentModalShowing] = useState(false)
+    const [successModalShowing, setSuccessModalSHowing] = useState(false)
     const formik = useFormik({
         initialValues: {
             name: '',
@@ -29,20 +31,35 @@ function Flightbooking() {
             selectOption: '',
         },
         onSubmit: values => {
-            history.push("/contactform")
+            // history.push("/contactform")
+            setPaymentModalShowing(true)
             localStorage.setItem("values", JSON.stringify(values))
         },
     });
 
     return (
         <>
+            {paymentModalShowing && <PaymentModal onSubmit={(e) => { e.preventDefault(); setPaymentModalShowing(false); setSuccessModalSHowing(true) }} setModalShowing={setPaymentModalShowing} />}
+            {successModalShowing && <div className='success-modal-container'>
+                <div className='success-modal'>
+                    <img onClick={() => setSuccessModalSHowing(false)} className='close-icon' src='/assets/images/icon-close.svg' />
+                    <div></div>
+                    <figure>
+                        <img src="/assets/images/green-tick.svg" />
+                    </figure>
+                    <p class="succes-modal-header"> Success</p>
+                    <p className='success-modal-text'>
+                        Payment Completed successfully.
+                    </p>
+                </div>
+            </div>}
             <div className="tab-inner">
                 <div className="row">
                     <div className="col-lg-8">
                         <h5 className="text-custom-black">About this tour:</h5>
-                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Price: </strong> <Link>{currency}{currency !== '$' ? formatNumber(price * rate) : formatNumber(price)}</Link> </p>
-                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Tour: </strong> <Link>{title}</Link> </p>
-                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Booking Date: </strong> <Link>{flightdate}</Link> </p>
+                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Price: </strong> {currency}{currency !== '$' ? formatNumber(price * rate) : formatNumber(price)} </p>
+                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Tour: </strong> {title}</p>
+                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Booking Date: </strong> {flightdate} </p>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Tour Overview: </strong></p>
                         {/* <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Time Stamp: </strong> <Link>{timestamp}</Link> </p> */}
                         <div>
@@ -60,8 +77,8 @@ function Flightbooking() {
                         <div className="col-12">
                         </div>
                         <div className="need-help bx-wrapper padding-20">
-                            <h5 className="text-custom-black">Why book flights with Parceltube?</h5>
-                            <p className="text-light-dark">Parceltube offers a comprehensive range of services to cater to enssential travel needs. Whether you're looking to explore captivating destinations, embark on thrilling adventures, or indulge in relaxing getaways, we've got you covered. With our extensive network of tour operators and vacation providers, we provide a wide selection of options to suit every traveler's preferences and budget. Our user-friendly platform allows you to easily book tours and vacations, ensuring a seamless and enjoyable booking experience.</p>
+                            <h5 className="text-custom-black">Why book flights with Litsky?</h5>
+                            <p className="text-light-dark">Litsky offers a comprehensive range of services to cater to enssential travel needs. Whether you're looking to explore captivating destinations, embark on thrilling adventures, or indulge in relaxing getaways, we've got you covered. With our extensive network of tour operators and vacation providers, we provide a wide selection of options to suit every traveler's preferences and budget. Our user-friendly platform allows you to easily book tours and vacations, ensuring a seamless and enjoyable booking experience.</p>
                             {/* <p className="text-light-dark">One-stop destination for domestic and international flights</p>
                             <p className="text-light-dark">Easy availability of tickets at competitive prices</p>
                             <p className="text-light-dark">Flawless 24*7 customer support</p> */}
@@ -75,7 +92,7 @@ function Flightbooking() {
                             <ul className="custom">
                                 <li className="text-custom-blue fs-18">
                                     <i className="fas fa-envelope" />
-                                    <Link to="#" className="text-light-dark fs-14"> info@parceltube.ng</Link>
+                                    <Link to="#" className="text-light-dark fs-14"> info@litsky.com</Link>
                                 </li>
                             </ul>
                         </div>
@@ -87,10 +104,10 @@ function Flightbooking() {
                                     <h5 className="text-custom-black">More Travel Details</h5>
 
                                     <form onSubmit={formik.handleSubmit}>
-                                    <div className="row">
+                                        <div className="row">
                                             <div className="col-md-12">
                                                 <div className="form-group">
-                                                    <label className="fs-14 text-custom-black fw-500"  htmlFor="name">Full Name:</label>
+                                                    <label className="fs-14 text-custom-black fw-500" htmlFor="name">Full Name:</label>
                                                     <input
                                                         className="form-control form-control-custom"
                                                         type="text"
@@ -106,7 +123,7 @@ function Flightbooking() {
                                         <div className="row">
                                             <div className="col-md-12">
                                                 <div className="form-group">
-                                                <label className="fs-14 text-custom-black fw-500"  htmlFor="name">Email:</label>
+                                                    <label className="fs-14 text-custom-black fw-500" htmlFor="name">Email:</label>
                                                     <input
                                                         className="form-control form-control-custom"
                                                         type="email"
@@ -119,20 +136,20 @@ function Flightbooking() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <label className="fs-14 text-custom-black fw-500"  htmlFor="name">Phone:</label>
+                                        <label className="fs-14 text-custom-black fw-500" htmlFor="name">Phone:</label>
                                         <input
                                             className="form-control form-control-custom"
-                                                        type="number"
-                                                        id='phone'
-                                                        name='phone'
-                                                        onChange={formik.handleChange}
-                                                        value={formik.values.phone}
-                                                        required
-                                                    />
+                                            type="number"
+                                            id='phone'
+                                            name='phone'
+                                            onChange={formik.handleChange}
+                                            value={formik.values.phone}
+                                            required
+                                        />
                                         <div className="row">
                                             <div className="col-md-12">
                                                 <div className="form-group">
-                                                    <label className="fs-14 text-custom-black fw-500"  htmlFor="date">Tour Date:</label>
+                                                    <label className="fs-14 text-custom-black fw-500" htmlFor="date">Tour Date:</label>
                                                     <input
                                                         className="form-control form-control-custom"
                                                         id="date"
@@ -165,7 +182,7 @@ function Flightbooking() {
                                             </div>
                                         </div> */}
                                         <button type="submit" className="btn-first btn-submit rounded full-width btn-height"
-                                                >Proceed with booking</button>
+                                        >Proceed with booking</button>
                                     </form>
                                 </div>
                             </div>

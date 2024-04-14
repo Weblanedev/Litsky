@@ -84,7 +84,7 @@ function Recomflights() {
                                                                 </div>
                                                             </div>
                                                             <div className="right-side footer-right">
-                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none' }}>₦{item.price} <small style={{ fontSize: '15px' }}>Per Person</small></span>
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none' }}>${item.price} <small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         <div className="action">
@@ -136,7 +136,7 @@ function Recomflights() {
                                                                 </div>
                                                             </div>
                                                             <div className="right-side footer-right">
-                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px' }}>₦{item.price}<small style={{ fontSize: '15px' }}>Per Person</small></span>
+                                                                <span className="price" style={{ textAlign: 'left', lineHeight: '20px', textTransform: 'none', fontSize: '20px' }}>${item.price}<small style={{ fontSize: '15px' }}>Per Person</small></span>
                                                             </div>
                                                         </div>
                                                         <div className="action">

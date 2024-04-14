@@ -21,7 +21,7 @@ class Contactinfo extends Component {
                         <div className="col-lg-4 col-sm-6">
                             <div className="contact-info-box">
                                 <i className="flaticon-envelope" />
-                                <h6 className="text-theme fw-600"><a rel={"external"} href={"mailto:"} className="text-theme">parceltube@gmail.com</a><br />  24 X 7 online support</h6>
+                                <h6 className="text-theme fw-600"><a rel={"external"} href={"mailto:"} className="text-theme">Litsky@gmail.com</a><br />  24 X 7 online support</h6>
                             </div>
                         </div>
                     </div>

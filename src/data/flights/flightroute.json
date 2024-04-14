@@ -1,38 +1,38 @@
 [
     {
-        "id":1,
-        "title":"2 Days famous sights"
+        "id": 1,
+        "title": "2 Days famous sights"
     },
     {
-        "id":2,
-        "title":"1 Day Exclusive Tour"
+        "id": 2,
+        "title": "1 hr 30 mins tour"
     },
     {
-        "id":3,
-        "title":"10 Hours Sightseeing Tour"
+        "id": 3,
+        "title": "10 - 11 Hours Sightseeing Tour"
     },
     {
-        "id":4,
-        "title":"1 week Exclusive Tour"
+        "id": 4,
+        "title": "1 week Exclusive Tour"
     },
     {
-        "id":5,
-        "title":"2 days Sightseeing Tour"
+        "id": 5,
+        "title": "2 days Sightseeing Tour"
     },
     {
-        "id":6,
-        "title":"1 day Birthday Tour,"
-    },
-    {       
-        "id":7,
-        "title":"11 hours Sightseeing Tour"
+        "id": 6,
+        "title": "1 day Birthday Tour,"
     },
     {
-        "id":8,
-        "title":"3 Days famous attractions"
-    }, 
+        "id": 7,
+        "title": "11 hours Sightseeing Tour"
+    },
     {
-        "id":9,
-        "title":"1 full day group tour"
+        "id": 8,
+        "title": "3 Days famous attractions"
+    },
+    {
+        "id": 9,
+        "title": "1 full day group tour"
     }
 ]

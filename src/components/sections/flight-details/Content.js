@@ -276,13 +276,13 @@ class Content extends Component {
                                                                     </div>
                                                                 </div>
                                                                 <Link to="/booking">
-                                                                <button type="submit" className="btn-first btn-submit full-width btn-height">Book Now</button>
+                                                                    <button type="submit" className="btn-first btn-submit full-width btn-height">Book Now</button>
                                                                 </Link>
                                                             </div>
                                                         </div>
                                                     </form>
                                                 </div>
-                                               
+
                                                 <div className="need-help bx-wrapper padding-20">
                                                     <h5 className="text-custom-black">Need Help?.</h5>
                                                     <p className="text-light-dark">We would be more than happy to help you. Our team
@@ -294,7 +294,7 @@ class Content extends Component {
                                                         </li>
                                                         <li className="text-custom-blue fs-18">
                                                             <i className="fas fa-envelope" />
-                                                            <Link to="#" className="text-light-dark fs-14">Parceltube@gmail.com</Link>
+                                                            <Link to="#" className="text-light-dark fs-14">Litsky@gmail.com</Link>
                                                         </li>
                                                     </ul>
                                                 </div>

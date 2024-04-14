@@ -60,8 +60,8 @@ function Header() {
                                     </Link>
                                 </div>
                                 <ul className='nav-links'>
-                                    <li className='nav-link'>About</li>
-                                    <li className='nav-link'>Contact</li>
+                                    <Link to="/about" className='nav-link'>About</Link>
+                                    <Link to="/contact" className='nav-link'>Contact</Link>
                                 </ul>
                                 {/* <span className="currency">Currency :</span>
                                 <select style={{ border: 'none' }} defaultValue={activeCurrency} onChange={handleChangeCurrency} >

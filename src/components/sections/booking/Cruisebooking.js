@@ -791,7 +791,7 @@ class Cruisebooking extends Component {
                                         </li>
                                         <li className="text-custom-blue fs-18">
                                             <i className="fas fa-envelope" />
-                                            <Link to="#" className="text-light-dark fs-14">parceltube@gmail.com</Link>
+                                            <Link to="#" className="text-light-dark fs-14">Litsky@gmail.com</Link>
                                         </li>
                                     </ul>
                                 </div>

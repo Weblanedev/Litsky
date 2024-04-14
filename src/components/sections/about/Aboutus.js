@@ -24,9 +24,9 @@ class Aboutus extends Videohelper {
                                         </div>
                                     </div>
                                 </div>
-                                <p className="text-light-dark">Parceltube (“us”, “we” or “our” as the context requires) provides online travel search services and tour related services (the “Services”) to travellers throughout the world via our websites.
+                                <p className="text-light-dark">Litsky (“us”, “we” or “our” as the context requires) provides online travel search services and tour related services (the “Services”) to travellers throughout the world via our websites.
 
-                                    Parceltube is not a travel agent and is not responsible for providing, setting or controlling the prices applicable to, any of the travel options or products which you find and book via our Services (“Third Party Travel Products”). All such Third Party Travel Products are provided by independent travel agents, airlines, hotels, tour operators or other third parties (“Travel Providers”) and are subject to the terms and conditions of those third parties.
+                                    Litsky is not a travel agent and is not responsible for providing, setting or controlling the prices applicable to, any of the travel options or products which you find and book via our Services (“Third Party Travel Products”). All such Third Party Travel Products are provided by independent travel agents, airlines, hotels, tour operators or other third parties (“Travel Providers”) and are subject to the terms and conditions of those third parties.
 
                                 </p>
                                 <div>
@@ -55,9 +55,9 @@ class Aboutus extends Videohelper {
                                     <p className="text-light-dark">
                                         You may only use our Services and Platforms in compliance with applicable laws and for legitimate purposes. In consideration of you agreeing to these Terms, we grant you a non-transferable, non-exclusive licence to download, access and use our Services and Platforms for your own personal, non-commercial purposes and for no other purpose. We grant this licence subject to you agreeing that you shall not:
 
-                                        use our Services or Platforms for any purpose that is improper, unlawful, or to post, share or transmit any material that: (i) is defamatory, offensive, obscene or otherwise objectionable; (ii) is in breach of confidence or privacy or of any third party’s rights including copyright, trade mark or other intellectual property rights; (iii) is posted, shared or transmitted for the purpose of advertising or promoting yourself or any third party; or (iv) is misleading or misrepresentative as to your identity or which in any way suggests that you are sponsored, affiliated or connected with Parceltube; or (v) you do not otherwise have any rights or the permissions you need to make available;
+                                        use our Services or Platforms for any purpose that is improper, unlawful, or to post, share or transmit any material that: (i) is defamatory, offensive, obscene or otherwise objectionable; (ii) is in breach of confidence or privacy or of any third party’s rights including copyright, trade mark or other intellectual property rights; (iii) is posted, shared or transmitted for the purpose of advertising or promoting yourself or any third party; or (iv) is misleading or misrepresentative as to your identity or which in any way suggests that you are sponsored, affiliated or connected with Litsky; or (v) you do not otherwise have any rights or the permissions you need to make available;
                                         <br />
-                                        - use our Services or Platforms for any commercial purpose or in any manner which may cause damage to us or bring Parceltube into disrepute;
+                                        - use our Services or Platforms for any commercial purpose or in any manner which may cause damage to us or bring Litsky into disrepute;
                                         <br />
                                         - disassemble, reverse engineer or otherwise decompile any software, applications, updates or hardware contained in or available via our Services or Platforms, except as legally permitted;
                                         <br />
@@ -67,10 +67,10 @@ class Aboutus extends Videohelper {
                                         <br />
                                         - introduce onto, or transmit via our Services or Platforms any disruptive or malicious code, virus, worm, or trojan horse, or a ‘denial of service’ or ‘spam’ attack; or
                                         <br />
-                                        - remove, alter or replace any notices of authorship, trade marks, business names, logos or other designations of origin on our Services or Platforms, or pass off or attempt to pass off our Services or Platforms as the product of anyone other than Parceltube.
+                                        - remove, alter or replace any notices of authorship, trade marks, business names, logos or other designations of origin on our Services or Platforms, or pass off or attempt to pass off our Services or Platforms as the product of anyone other than Litsky.
                                     </p>
                                     <p className="text-light-dark">
-                                        You also agree not to use any unauthorised automated computer program, software agent, bot, spider or other software or application to scan, copy, index, sort or otherwise exploit our Services or Platforms or the data contained on them. Parceltube has made a substantial investment in collecting, processing and presenting thousands of travel data suppliers, and offers access to travel data on a commercial API basis, so any breach of this provision is a material breach of these terms and Parceltube reserves the right to take any technical or legal action to detect and restrict unauthorised automated access to our Services and Platforms.
+                                        You also agree not to use any unauthorised automated computer program, software agent, bot, spider or other software or application to scan, copy, index, sort or otherwise exploit our Services or Platforms or the data contained on them. Litsky has made a substantial investment in collecting, processing and presenting thousands of travel data suppliers, and offers access to travel data on a commercial API basis, so any breach of this provision is a material breach of these terms and Litsky reserves the right to take any technical or legal action to detect and restrict unauthorised automated access to our Services and Platforms.
                                     </p>
                                     <p className="text-light-dark">
                                         Where you sign up to our Services or Platforms with a log-in account or password, you are responsible for keeping those password and log-in details confidential and secure. If you become aware, or suspect for any reason, that the security of your log-in details has been compromised, please let us know via our Helpdesk immediately.
@@ -99,13 +99,13 @@ class Aboutus extends Videohelper {
                                     <div className="section-header">
                                         <div className="section-heading">
                                             <div className="section-description">
-                                                <p className="text-light-black subheading">Making travel bookings via Parceltube</p>
+                                                <p className="text-light-black subheading">Making travel bookings via Litsky</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <p className="text-light-dark">Parceltube is not a travel agent and is not responsible for providing any travel options displayed via the Services or Platforms or for setting or controlling the prices we display. Any Third Party Travel Products which you find and/or book via our Services or Platforms are provided by independent Travel Providers.
+                                    <p className="text-light-dark">Litsky is not a travel agent and is not responsible for providing any travel options displayed via the Services or Platforms or for setting or controlling the prices we display. Any Third Party Travel Products which you find and/or book via our Services or Platforms are provided by independent Travel Providers.
 
-                                        Parceltube facilitates your bookings with Travel Providers but is not responsible and has no liability to you in respect of such bookings. The identity of the relevant Travel Provider and the terms and conditions applicable to your booking with them (“Travel Provider Terms”) will be notified to you at the time of booking and you should ensure that you read and fully understand them before completing your booking. The only exception to this is if you’ve booked with Parceltube’s Travel Service, which is subject to a different set of terms and conditions. Unless your booking confirmation has come from Parceltube, then this is unlikely to affect you.
+                                        Litsky facilitates your bookings with Travel Providers but is not responsible and has no liability to you in respect of such bookings. The identity of the relevant Travel Provider and the terms and conditions applicable to your booking with them (“Travel Provider Terms”) will be notified to you at the time of booking and you should ensure that you read and fully understand them before completing your booking. The only exception to this is if you’ve booked with Litsky’s Travel Service, which is subject to a different set of terms and conditions. Unless your booking confirmation has come from Litsky, then this is unlikely to affect you.
 
                                         The Travel Provider Terms should set out what rights you have against the Travel Provider and will explain their liability to you in the event of anything going wrong.
 
@@ -122,7 +122,7 @@ class Aboutus extends Videohelper {
                                             </div>
                                         </div>
                                     </div>
-                                    <p className="text-light-dark">You acknowledge that your unauthorised use of our Services or Platforms may result in irreparable damage and injury to Parceltube and/or its affiliates or licensors for which money damages would be inadequate. Consequently, in the event of such unauthorised use, we and our affiliates and/or licensors (as applicable) shall have the right, in addition to any other legal remedies available, to seek an immediate injunction against you.
+                                    <p className="text-light-dark">You acknowledge that your unauthorised use of our Services or Platforms may result in irreparable damage and injury to Litsky and/or its affiliates or licensors for which money damages would be inadequate. Consequently, in the event of such unauthorised use, we and our affiliates and/or licensors (as applicable) shall have the right, in addition to any other legal remedies available, to seek an immediate injunction against you.
 
                                         The invalidity or unenforceability of any provision (in whole or part) of these Terms shall not affect the validity or enforceability of the remaining provisions (in whole or part). The whole or part of any provision which is held by a court of competent jurisdiction to be invalid or unenforceable shall be deemed deleted from these Terms.
 
@@ -130,7 +130,7 @@ class Aboutus extends Videohelper {
 
                                         These Terms represent the entire agreement between us and you and supersede and replace all and any previous terms, conditions, agreements and arrangements in respect of your use of our Services or Platforms.
 
-                                        We will act promptly to any indications of User Content that is in breach of these Terms. Where you know of or suspect any illegal activities, please contact us at info@parceltube.ng
+                                        We will act promptly to any indications of User Content that is in breach of these Terms. Where you know of or suspect any illegal activities, please contact us at info@litsky.com
 
                                         Any failure by us to enforce any of these Terms shall not be a waiver of them or limit the right to subsequently enforce any of these Terms.
 
@@ -148,7 +148,7 @@ class Aboutus extends Videohelper {
                                         </div>
                                     </div>
                                     <p className="text-light-dark">
-                                    If you require further information about Parceltube or have any suggestions concerning how to improve our Services or Platforms, please contact us via info@parceltube.ng
+                                        If you require further information about Litsky or have any suggestions concerning how to improve our Services or Platforms, please contact us via info@litsky.com
                                     </p>
                                     <div className="col-md-8">
                                         <i className="fas fa-home text-gray" />

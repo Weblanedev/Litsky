@@ -14,11 +14,11 @@ class Footer extends NavHelper {
                         <div className="row">
                             <div className="col-lg-6 col-md-6">
                                 <div className="footer-box mb-md-40">
-                                    <h4 className="text-custom-white fw-600">Parceltube</h4>
+                                    <h4 className="text-custom-white fw-600">Litsky</h4>
                                     <h5 className="text-custom-white"><strong>About Us</strong></h5>
-                                    <p className="text-custom-white">Welcome to Parceltube, your ultimate destination for booking unforgettable tours and experiences to exciting places around the world. Discover a wide range of curated itineraries, from thrilling adventure tours to cultural explorations and everything in between. With our user-friendly platform, booking your dream tour has never been easier. Trust our expert guides and reliable partners to ensure a seamless and memorable travel experience. Start your journey today and create lifelong memories with Parceltube.
+                                    <p className="text-custom-white">Welcome to Litsky, your ultimate destination for booking unforgettable tours and experiences to exciting places around the world. Discover a wide range of curated itineraries, from thrilling adventure tours to cultural explorations and everything in between. With our user-friendly platform, booking your dream tour has never been easier. Trust our expert guides and reliable partners to ensure a seamless and memorable travel experience. Start your journey today and create lifelong memories with Litsky.
                                     </p>
-                                    <p className="text-custom-white"><strong>Contact us: </strong>info@parceltube.ng</p>
+                                    <p className="text-custom-white"><strong>Contact us: </strong>info@litsky.com</p>
 
 
                                 </div>
@@ -48,7 +48,7 @@ class Footer extends NavHelper {
                                     <ul className="custom instagram gallery-grid">
                                         {/* Data */}
                                         {insta.map((item, i) => (
-                                        // {insta.slice(0, 6).map((item, i) => (
+                                            // {insta.slice(0, 6).map((item, i) => (
                                             <li key={i}>
                                                 <Link to="#" className="text-custom-white popup">
                                                     <img src={process.env.PUBLIC_URL + "/" + item.image} className="image-fit" alt="img" />
@@ -81,7 +81,7 @@ class Footer extends NavHelper {
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
-                                <p className="text-custom-white">All Right Reserved <Link to="#" className="text-custom-white">© Parceltube</Link></p>
+                                <p className="text-custom-white">All Right Reserved <Link to="#" className="text-custom-white">© Litsky</Link></p>
                             </div>
                         </div>
                     </div>

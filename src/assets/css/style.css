@@ -1001,6 +1001,12 @@ h5.text-custom-black {
     /* color: #838383; */
 }
 
+@media screen and (max-width: 768px) {
+    .text-light-dark {
+        font-size: 14px !important;
+    }
+}
+
 .text-light-dark strong {
     font-weight: 700;
 }
@@ -1156,7 +1162,12 @@ ul.nav-links {
     margin-left: 25px;
     font-size: 18px;
 }
-
+@media screen and (min-width: 1024px) {
+    .nav-link {
+        margin-right: 18px;
+        font-size: 16px;
+    }
+}
 .navigation .main-navigation .main-menu .logo {
     display: none;
 }

@@ -1,9 +1,7 @@
-import React, { Component, Fragment, useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import MetaTags from "react-meta-tags";
-import Header from '../layouts/Header';
 import Footer from '../layouts/Footer';
-import Breadcrumbs from '../layouts/Breadcrumbs';
-import Content from '../sections/contact/Content';
+import Header from '../layouts/Header';
 
 const Contact = () => {
     const [successModalShowing, setSuccessModalSHowing] = useState(false)
@@ -54,19 +52,19 @@ const Contact = () => {
                     </form>
                     <div className='contact-us-icon-text-group-container contact-us-page-container'>
                         <div className='contact-us-icon-text-group'>
-                            <figure><img src="/assets/images/icon-phone.svg" /></figure>
+                            <figure><img alt="phone icon" src="/assets/images/icon-phone.svg" /></figure>
                             <div><p className='text-group-header'>Call Us</p>
                                 <p className='text-group-text'>09092439804</p>
                             </div>
                         </div>
                         <div className='contact-us-icon-text-group'>
-                            <figure><img src="/assets/images/icon-mail.svg" /></figure>
+                            <figure><img alt='mail icon' src="/assets/images/icon-mail.svg" /></figure>
                             <div><p className='text-group-header'>Mail Us</p>
                                 <p className='text-group-text'>support@litskytravels.com</p>
                             </div>
                         </div>
                         <div className='contact-us-icon-text-group'>
-                            <figure><img src="/assets/images/icon-location.svg" /></figure>
+                            <figure><img alt="location icon" src="/assets/images/icon-location.svg" /></figure>
                             <div><p className='text-group-header'>Addresss</p>
                                 <p className='text-group-text'>
                                     Litskytravels annex building
@@ -78,10 +76,10 @@ const Contact = () => {
             </div>
             {successModalShowing && <div className='success-modal-container'>
                 <div className='success-modal'>
-                    <img onClick={closeModal} className='close-icon' src='/assets/images/icon-close.svg' />
+                    <img alt="close icon" onClick={closeModal} className='close-icon' src='/assets/images/icon-close.svg' />
                     <div></div>
                     <figure>
-                        <img src="/assets/images/green-tick.svg" />
+                        <img alt="green tick" src="/assets/images/green-tick.svg" />
                     </figure>
                     <p class="succes-modal-header"> Success</p>
                     <p className='success-modal-text'>

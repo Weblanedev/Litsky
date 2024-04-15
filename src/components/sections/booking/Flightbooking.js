@@ -8,8 +8,6 @@ import PaymentModal from './PaymentModal';
 
 function Flightbooking() {
 
-    const history = useHistory()
-
     const { id } = useParams()
     const flightDetails = dataBlock[id]
     const { price, title, airlines, flightdate } = flightDetails
@@ -42,10 +40,10 @@ function Flightbooking() {
             {paymentModalShowing && <PaymentModal onSubmit={(e) => { e.preventDefault(); setPaymentModalShowing(false); setSuccessModalSHowing(true) }} setModalShowing={setPaymentModalShowing} />}
             {successModalShowing && <div className='success-modal-container'>
                 <div className='success-modal'>
-                    <img onClick={() => setSuccessModalSHowing(false)} className='close-icon' src='/assets/images/icon-close.svg' />
+                    <img alt="close icon" onClick={() => setSuccessModalSHowing(false)} className='close-icon' src='/assets/images/icon-close.svg' />
                     <div></div>
                     <figure>
-                        <img src="/assets/images/green-tick.svg" />
+                        <img alt="green tick" src="/assets/images/green-tick.svg" />
                     </figure>
                     <p class="succes-modal-header"> Success</p>
                     <p className='success-modal-text'>

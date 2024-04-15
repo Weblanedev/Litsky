@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { formatNumber } from "../../../utils";
-import { Link } from 'react-router-dom';
 import { CurrencyState } from '../../../Context/CurrencyContext';
+import { formatNumber } from "../../../utils";
 
 
 const PaymentModal = ({ setModalShowing, onSubmit }) => {
@@ -13,7 +12,7 @@ const PaymentModal = ({ setModalShowing, onSubmit }) => {
 
     const { price, title, airlines, flightdate } = data || {}
     const { name, email, phone, date, selectOption } = bookingData || {}
-    const [mobilePage, setMobilePage] = useState("reviewInformation")
+    const [mobilePage] = useState("reviewInformation")
 
     console.log(selectOption)
 
@@ -21,7 +20,7 @@ const PaymentModal = ({ setModalShowing, onSubmit }) => {
         state: { currency, rate }
     } = CurrencyState()
 
-    const amount = currency !== '$' ? price * rate : price
+    // const amount = currency !== '$' ? price * rate : price
 
     useEffect(() => {
         const script = document.createElement("script");
@@ -32,11 +31,11 @@ const PaymentModal = ({ setModalShowing, onSubmit }) => {
     return (
         <div className="payment-modal-container">
             <div onClick={() => setModalShowing(false)} className='close-modal-button'>
-                <img src="/assets/images/icon-close.svg" />
+                <img className='close icon' src="/assets/images/icon-close.svg" />
             </div>
             <div className="payment-modal container">
                 <div className="review-information">
-                    <h1 className={`review-information-title ${mobilePage == 'cardDetails' ? 'mobile-hidden' : ''}`}>
+                    <h1 className={`review-information-title ${mobilePage === 'cardDetails' ? 'mobile-hidden' : ''}`}>
                         Payment
                     </h1>
                     <p className="review-information-intro-text">Kindly confirm that the booking information below is correct before proceeding to payment.</p>

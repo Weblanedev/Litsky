@@ -25,7 +25,7 @@ class About extends Component {
                         <div className='about-content'>
                             <div className='about-content__point'><figure><img alt="user friendly icon" src="/assets/images/user-friendly.svg" /></figure><p>With our user-friendly platform, booking your dream tour has never been easier.</p></div>
                             <div className='about-content__point'><figure><img alt="rocket icon" src="/assets/images/icon-rocket.svg" /></figure><p>Trust our expert guides and reliable partners to ensure a seamless and memorable travel experience.</p></div>
-                            <div className='about-content__point'><figure><img src="/assets/images/icon-rocket.svg" /></figure><p>Start your journey today and create lifelong memories with Parceltube.</p></div>
+                            <div className='about-content__point'><figure><img alt="rocket icon" src="/assets/images/icon-rocket.svg" /></figure><p>Start your journey today and create lifelong memories with Parceltube.</p></div>
                         </div>
                         <figure className='right-illustration-container'>
 

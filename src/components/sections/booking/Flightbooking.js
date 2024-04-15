@@ -1,9 +1,9 @@
+import { useFormik } from 'formik';
 import React, { useState } from 'react';
-import { Link, useParams, useHistory } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { CurrencyState } from '../../../Context/CurrencyContext';
-import dataBlock from '../../../data/flights/flight.json'
+import dataBlock from '../../../data/flights/flight.json';
 import { formatNumber } from "../../../utils";
-import { useFormik } from 'formik'
 import PaymentModal from './PaymentModal';
 
 function Flightbooking() {

@@ -31,7 +31,7 @@ const PaymentModal = ({ setModalShowing, onSubmit }) => {
     return (
         <div className="payment-modal-container">
             <div onClick={() => setModalShowing(false)} className='close-modal-button'>
-                <img className='close icon' src="/assets/images/icon-close.svg" />
+                <img alt="close icon" className='close icon' src="/assets/images/icon-close.svg" />
             </div>
             <div className="payment-modal container">
                 <div className="review-information">
@@ -53,7 +53,7 @@ const PaymentModal = ({ setModalShowing, onSubmit }) => {
                 </div>
 
                 <div className="card-details">
-                    <h1 className={`card-details-title ${mobilePage == 'reviewInformation' ? 'mobile-hidden' : ''}`}>
+                    <h1 className={`card-details-title ${mobilePage === 'reviewInformation' ? 'mobile-hidden' : ''}`}>
                         Card Details
                     </h1>
                     <form onSubmit={onSubmit} className='payment-form'>

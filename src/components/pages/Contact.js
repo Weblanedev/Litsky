@@ -41,7 +41,7 @@ const Contact = () => {
                 </section>
                 <section className='contact-us-grid'>
                     <figure>
-                        <img className='full-image' src="/assets/images/customer-care.jpeg" />
+                        <img alt="customer care image" className='full-image' src="/assets/images/customer-care.jpeg" />
                     </figure>
                     <form onSubmit={onSubmit} className='contact-us-page-container'>
                         <input onChange={(e) => setFormValues({ ...formValues, name: e.target.values })} value={formValues.name} class="contact-us-input" placeholder='Your Full Name' />

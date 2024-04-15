@@ -10,7 +10,7 @@ function Flightbooking() {
 
     const { id } = useParams()
     const flightDetails = dataBlock[id]
-    const { price, title, airlines, flightdate } = flightDetails
+    const { price, title, airlines } = flightDetails
     localStorage.setItem("flightDetails", JSON.stringify(flightDetails))
 
     console.log(airlines)
@@ -30,17 +30,26 @@ function Flightbooking() {
         },
         onSubmit: values => {
             // history.push("/contactform")
-            setPaymentModalShowing(true)
+            console.log(values)
             localStorage.setItem("values", JSON.stringify(values))
+            setTimeout(() => {
+                setPaymentModalShowing(true)
+            }, 500)
         },
     });
 
+    function changeToMonth(month) {
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        return months[month];
+    }
     return (
         <>
             {paymentModalShowing && <PaymentModal onSubmit={(e) => { e.preventDefault(); setPaymentModalShowing(false); setSuccessModalSHowing(true) }} setModalShowing={setPaymentModalShowing} />}
             {successModalShowing && <div className='success-modal-container'>
                 <div className='success-modal'>
-                    <img alt="close icon" onClick={() => setSuccessModalSHowing(false)} className='close-icon' src='/assets/images/icon-close.svg' />
+                    <Link to="/">
+                        <img alt="close icon" className='close-icon' src='/assets/images/icon-close.svg' />
+                    </Link>
                     <div></div>
                     <figure>
                         <img alt="green tick" src="/assets/images/green-tick.svg" />
@@ -57,7 +66,7 @@ function Flightbooking() {
                         <h5 className="text-custom-black">About this tour:</h5>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Price: </strong> {currency}{currency !== '$' ? formatNumber(price * rate) : formatNumber(price)} </p>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Tour: </strong> {title}</p>
-                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Booking Date: </strong> {flightdate} </p>
+                        <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Booking Date: </strong>  {`${(new Date()).getDate()}, ${changeToMonth((new Date()).getMonth())} ${(new Date().getFullYear())}`}</p>
                         <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Tour Overview: </strong></p>
                         {/* <p className="text-light-dark" style={{ fontSize: '18px' }}> <strong>Time Stamp: </strong> <Link>{timestamp}</Link> </p> */}
                         <div>

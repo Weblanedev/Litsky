@@ -57,4 +57,4 @@ function getFilteredHotel(hotels, filter = { priceFilter: [] }) {
     }
     return hotels;
 }
-export { getAmenities, getAccomodation, getHotel, getHotelByCategory, getRecentHotel, getFilteredHotel };
+export { getAmenities, getAccomodation, getHotel, getHotelByCategory, getRecentHotel, getFilteredHotel, changeToMonth };

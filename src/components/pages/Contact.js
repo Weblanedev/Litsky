@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react';
 import MetaTags from "react-meta-tags";
 import Footer from '../layouts/Footer';
 import Header from '../layouts/Header';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     const [successModalShowing, setSuccessModalSHowing] = useState(false)
@@ -21,9 +22,16 @@ const Contact = () => {
             message: ''
         })
     }
-    function closeModal() {
-        setSuccessModalSHowing(false)
+
+    const allowOnlyNumbers = (evt) => {
+        const keysAllowed = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+']
+        const keyPressed = evt.key
+
+        if (!keysAllowed.includes(keyPressed)) {
+            evt.preventDefault()
+        }
     }
+
     return (
         <Fragment>
             <MetaTags>
@@ -44,10 +52,10 @@ const Contact = () => {
                         <img alt="customer care" className='full-image' src="/assets/images/customer-care.jpeg" />
                     </figure>
                     <form onSubmit={onSubmit} className='contact-us-page-container'>
-                        <input onChange={(e) => setFormValues({ ...formValues, name: e.target.values })} value={formValues.name} class="contact-us-input" placeholder='Your Full Name' />
-                        <input onChange={(e) => setFormValues({ ...formValues, email: e.target.values })} value={formValues.email} class="contact-us-input" placeholder='Email Address' />
-                        <input onChange={(e) => setFormValues({ ...formValues, phoneNumber: e.target.values })} value={formValues.phoneNumber} class="contact-us-input" placeholder='Phone Number' />
-                        <textarea onChange={(e) => setFormValues({ ...formValues, message: e.target.values })} value={formValues.message} class="contact-us-input" placeholder='Your Message' />
+                        <input required onChange={(e) => setFormValues({ ...formValues, name: e.target.values })} value={formValues.name} class="contact-us-input" placeholder='Your Full Name' />
+                        <input required type="email" onChange={(e) => setFormValues({ ...formValues, email: e.target.values })} value={formValues.email} class="contact-us-input" placeholder='Email Address' />
+                        <input onKeyPress={allowOnlyNumbers} required onChange={(e) => setFormValues({ ...formValues, phoneNumber: e.target.values })} value={formValues.phoneNumber} class="contact-us-input" placeholder='Phone Number' />
+                        <textarea required onChange={(e) => setFormValues({ ...formValues, message: e.target.values })} value={formValues.message} class="contact-us-input" placeholder='Your Message' />
                         <button type="submit" className='contact-us-button'>Send Mail</button>
                     </form>
                     <div className='contact-us-icon-text-group-container contact-us-page-container'>
@@ -76,12 +84,14 @@ const Contact = () => {
             </div>
             {successModalShowing && <div className='success-modal-container'>
                 <div className='success-modal'>
-                    <img alt="close icon" onClick={closeModal} className='close-icon' src='/assets/images/icon-close.svg' />
+                    <Link to="/">
+                        <img alt="close icon" className='close-icon' src='/assets/images/icon-close.svg' />
+                    </Link>
                     <div></div>
                     <figure>
                         <img alt="green tick" src="/assets/images/green-tick.svg" />
                     </figure>
-                    <p class="succes-modal-header"> Success</p>
+                    <p className="succes-modal-header"> Success</p>
                     <p className='success-modal-text'>
                         Your response has been recorded successfully
                     </p>

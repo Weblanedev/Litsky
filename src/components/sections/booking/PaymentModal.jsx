@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { CurrencyState } from '../../../Context/CurrencyContext';
 import { formatNumber } from "../../../utils";
 
-
 const PaymentModal = ({ setModalShowing, onSubmit }) => {
     const flightDetails = localStorage.getItem('flightDetails');
     const bookingDetails = localStorage.getItem('values');
@@ -10,17 +9,22 @@ const PaymentModal = ({ setModalShowing, onSubmit }) => {
     const data = JSON.parse(flightDetails)
     const bookingData = JSON.parse(bookingDetails)
 
-    const { price, title, airlines, flightdate } = data || {}
-    const { name, email, phone, date, selectOption } = bookingData || {}
+    const { price, title, airlines, } = data || {}
+    const { name, email, phone, date, } = bookingData || {}
     const [mobilePage] = useState("reviewInformation")
 
-    console.log(selectOption)
+    // console.log((new Date(date)))
 
     const {
         state: { currency, rate }
     } = CurrencyState()
 
     // const amount = currency !== '$' ? price * rate : price
+
+    function changeToMonth(month) {
+        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        return months[month];
+    }
 
     useEffect(() => {
         const script = document.createElement("script");
@@ -45,8 +49,8 @@ const PaymentModal = ({ setModalShowing, onSubmit }) => {
                         <li className="text-light-dark form_list"> <strong>Customer Name: </strong> <span>{name}</span> </li>
                         <li className="text-light-dark form_list" > <strong>Email: </strong> <span>{email}</span> </li>
                         <li className="text-light-dark form_list" > <strong>Phone Number: </strong> <span>{phone}</span> </li>
-                        <li className="text-light-dark form_list" > <strong>Booking Date: </strong> <span>{flightdate}</span> </li>
-                        <li className="text-light-dark form_list" > <strong>Departure Date: </strong> <span>{date}</span> </li>
+                        <li className="text-light-dark form_list" > <strong>Booking Date: </strong> <span>{`${(new Date()).getDate()}, ${changeToMonth((new Date()).getMonth())} ${(new Date().getFullYear())}`}</span> </li>
+                        <li className="text-light-dark form_list" > <strong>Departure Date: </strong> <span>{`${(new Date(date)).getDate()}, ${changeToMonth((new Date(date)).getMonth())} ${(new Date(date).getFullYear())}`}</span> </li>
                         <hr />
                         <li className="text-light-dark  final-price form_list" > <strong>Amount due: </strong> <span>{currency}{currency !== '$' ? formatNumber(price * rate) : formatNumber(price)}</span> </li>
                     </div>
@@ -59,20 +63,20 @@ const PaymentModal = ({ setModalShowing, onSubmit }) => {
                     <form onSubmit={onSubmit} className='payment-form'>
                         <div className='form-input-group'>
                             <p className='form-input-group__title'>Cardholder's Name</p>
-                            <input />
+                            <input maxLength={32} required />
                         </div>
                         <div className='form-input-group'>
                             <p className='form-input-group__title'>Card Number</p>
-                            <input />
+                            <input maxlength={16} required />
                         </div>
                         <div className='form-input-row seventy_thirty'>
                             <div className='form-input-group'>
                                 <p className='form-input-group__title'>Expiry Date</p>
-                                <input type="date" />
+                                <input type="date" required />
                             </div>
                             <div className='form-input-group'>
                                 <p className='form-input-group__title'>CVC/CVV</p>
-                                <input type="text" maxLength={3} />
+                                <input type="text" maxLength={3} required />
                             </div>
                         </div>
                         <button onClick className='submit-button' type='submit'>

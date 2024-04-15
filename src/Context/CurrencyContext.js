@@ -8,12 +8,12 @@ const Currency = createContext()
 
 export const CurrencyContext = ({ children }) => {
 
-    const [ currency, setCurrency ] = useState(localStorage.getItem('currency') === 'USD' ? '$' : '₦');
+    const [currency, setCurrency] = useState('$');
     console.log(setCurrency)
 
-    const [ state, dispatch ] = useReducer(currencyReducer, {
+    const [state, dispatch] = useReducer(currencyReducer, {
         currency: currency,
-        currencies: [ "USD", "NGN" ],
+        currencies: ["USD", "NGN"],
         rate: 450,
         flightDetails: {}
     })

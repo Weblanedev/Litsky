@@ -14,6 +14,14 @@ const PaymentModal = ({ setModalShowing, onSubmit }) => {
     const [mobilePage] = useState("reviewInformation")
 
     // console.log((new Date(date)))
+    const allowOnlyNumbers = (evt) => {
+        const keysAllowed = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+']
+        const keyPressed = evt.key
+
+        if (!keysAllowed.includes(keyPressed)) {
+            evt.preventDefault()
+        }
+    }
 
     const {
         state: { currency, rate }
@@ -67,7 +75,7 @@ const PaymentModal = ({ setModalShowing, onSubmit }) => {
                         </div>
                         <div className='form-input-group'>
                             <p className='form-input-group__title'>Card Number</p>
-                            <input maxlength={16} required />
+                            <input onKeyPress={allowOnlyNumbers} maxlength={16} required />
                         </div>
                         <div className='form-input-row seventy_thirty'>
                             <div className='form-input-group'>

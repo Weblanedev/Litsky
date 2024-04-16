@@ -156,7 +156,7 @@ function Flightbooking() {
                                         <div className="row">
                                             <div className="col-md-12">
                                                 <div className="form-group">
-                                                    <label className="fs-14 text-custom-black fw-500" htmlFor="date">Tour Date:</label>
+                                                    <label className="fs-14 text-custom-black fw-500" htmlFor="date" required>Tour Date:</label>
                                                     <input
                                                         className="form-control form-control-custom"
                                                         id="date"

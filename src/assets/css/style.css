@@ -1162,12 +1162,16 @@ ul.nav-links {
     margin-left: 25px;
     font-size: 18px;
 }
-@media screen and (min-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
     .nav-link {
-        margin-right: 18px;
+        margin-right: 0px;
+        margin-left: 10px;
         font-size: 16px;
+        padding: 8px 10px;
     }
 }
+
 .navigation .main-navigation .main-menu .logo {
     display: none;
 }
@@ -1344,6 +1348,12 @@ ul.nav-links {
 
 .slider-content h1 {
     font-size: 60px;
+}
+
+@media screen and (max-width: 1023px) {
+    .slider-content h1 {
+        font-size: 40px;
+    }
 }
 
 .slider-content ul {
@@ -3165,6 +3175,10 @@ h1.card-details-title {
         grid-template-columns: 1fr;
     }
 
+    .about-us-page h1 {
+        font-size: 40px;
+    }
+
     .about-us-page__intro-text {
         text-align: center;
     }
@@ -3175,7 +3189,7 @@ h1.card-details-title {
 
     .about-content__point p,
     .about-us-page__intro-text {
-        font-size: 16px;
+        font-size: 14px !important;
     }
 
 }
@@ -3364,6 +3378,10 @@ h1.card-details-title {
     font-size: 26px;
     /* color: rgb(0, 255, 0); */
     font-weight: 800;
+}
+
+.success-modal-text {
+    text-align: center;
 }
 
 .success-modal .close-icon {

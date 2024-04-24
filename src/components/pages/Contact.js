@@ -75,7 +75,7 @@ const Contact = () => {
                             <figure><img alt="location icon" src="/assets/images/icon-location.svg" /></figure>
                             <div><p className='text-group-header'>Addresss</p>
                                 <p className='text-group-text'>
-                                    Litskytravels annex building
+                                   No 1, Unit B, Ivy Court II, Spring Garden Estate, Orchid Road, Lekki, Lagos
                                 </p>
                             </div>
                         </div>
